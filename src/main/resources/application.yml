@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: minimal-blog
+
+server:
+  port: 5500
