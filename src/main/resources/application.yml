@@ -1,6 +1,10 @@
 spring:
   application:
-    name: minimal-blog
+    name: ${APPLICATION_NAME}
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      auto-index-creation: true
 
 server:
-  port: 5500
+  port: ${SERVER_PORT}

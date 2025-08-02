@@ -1,3 +1,4 @@
+README.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -33,4 +34,7 @@ build/
 
 ### Environment variables ###
 .env*
-!.env.example
+
+### Docker ###
+Dockerfile
+.dockerignore
