@@ -1,5 +1,9 @@
 spring:
   application:
     name: minimal-blog
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/minimal-blog
+      auto-index-creation: true
 server:
   port: 5500
